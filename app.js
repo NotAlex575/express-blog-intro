@@ -8,9 +8,6 @@ app.get('/', (req, res) => {
     console.log("Server del mio blog")
 })
 
-app.listen(port, () =>{
-    console.log(`Server in ascolto sulla porta ${port}`);
-})
 
 const postList = [
     {
@@ -44,3 +41,11 @@ const postList = [
         tags: ["cuore", "mare", "luce", "arancione"]
     }
 ]
+
+app.get("/bacheca", (req,res) =>{
+    res.json(postList);
+})
+
+app.listen(port, () =>{
+    console.log(`Server in ascolto sulla porta ${port}`);
+})
