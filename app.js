@@ -13,31 +13,31 @@ const postList = [
     {
         titolo: "titolo1",
         contenuto: "questo è il primo contenuto che abbiamo nella array list",
-        immagine: "1.jpg",
+        immagine: "fiore.jpg",
         tags: ["fiore", "arancione"]
     },
     {
         titolo: "titolo2",
         contenuto: "questo è il secondo contenuto che abbiamo nella array list",
-        immagine: "2.jpg",
+        immagine: "montagna.jpg",
         tags: ["montagna", "neve"]
     },
     {
         titolo: "titolo3",
         contenuto: "questo è il terzo contenuto che abbiamo nella array list",
-        immagine: "3.jpg",
+        immagine: "faro.jpg",
         tags: ["faro", "mare", "luce"]
     },
     {
         titolo: "titolo4",
         contenuto: "questo è il quarto contenuto che abbiamo nella array list",
-        immagine: "4.jpg",
+        immagine: "onda.jpg",
         tags: ["onde", "mare", "luce", "montagna"]
     },
     {
         titolo: "titolo5",
         contenuto: "questo è il quinto contenuto che abbiamo nella array list",
-        immagine: "5.jpg",
+        immagine: "cuore.jpg",
         tags: ["cuore", "mare", "luce", "arancione"]
     }
 ]
